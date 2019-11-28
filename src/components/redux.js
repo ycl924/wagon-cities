@@ -25,14 +25,14 @@ function reducer(state, action) {
   switch (action.type) {
     case 'SELECT_CITY': {
       return {
-        cityList: state.cityList,
+        ...state,
         activeCity: action.payload
       };
     }
     default:
       return state;
   }
-}
+  }
 
 
 // store

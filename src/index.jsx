@@ -10,10 +10,7 @@ import '../assets/stylesheets/application.scss';
 import App from './components/app';
 import '../assets/stylesheets/application.scss';
 
-// State and reducers
-const reducers = combineReducers({
-  changeMe: (state = null, action) => state
-});
+
 
 // render an instance of the component in the DOM
 ReactDOM.render(
